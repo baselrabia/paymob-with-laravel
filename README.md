@@ -25,7 +25,7 @@ A Laravel online payment gateway.
 Require via composer
 
 ```bash
-composer require baselrabia/laravel-paymob
+composer require baselrabia/paymob-with-laravel
 ```
 
 Laravel<=5.\* In `config/app.php` file
