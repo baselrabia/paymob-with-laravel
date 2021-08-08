@@ -1,0 +1,40 @@
+{
+    "name": "baselrabia/paymob-with-laravel",
+    "description": "integration of PayMob online payment gateway with laravel php framework",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "paymob",
+        "gateway",
+        "online",
+        "payment",
+        "php",
+        "laravel",
+        "egypt"
+    ],
+    "homepage": "https://github.com/baselrabia/laravel-paymob",
+    "authors": [
+        {
+            "name": "Basel Rabia",
+            "email": "baselrabia@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+     },
+    "autoload": {
+        "psr-4": {
+            "Basel\\PayMob\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Basel\\PayMob\\PayMobServiceProvider"
+            ],
+            "aliases": {
+                "PayMob": "Basel\\PayMob\\Facades\\PayMob"
+            }
+        }
+    }
+}
